@@ -1,0 +1,39 @@
+/*WEB RESPONSIVO*/
+
+@media screen and (max-width:1021px)
+{
+    .posts
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .posts-blog
+    {
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    .posts-blog
+    {
+        width: 90%;
+        margin: 20px;
+        height: auto;
+    }
+
+    .header
+    {
+        font-size: 25px;
+    }
+
+    .blogs-main
+    {
+        font-size: 16px;
+    }
+}
